@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+  padding: 30px;
+}
+
+.container-top {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 5px;
+}
+
+.container-top h3 {
+  color: hsl(234, 12%, 34%);
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.container-top h2 {
+  color: hsl(234, 12%, 34%);
+  font-size: 40px;
+  font-weight: 600;
+}
+.container-top p {
+  width: 110%;
+  color: hsl(229, 6%, 66%);
+  font-size: 16px;
+  margin-top: 15px;
+}
+.container-bottom {
+  width: 1100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.container-bottom h2 {
+  color: hsl(234, 12%, 34%);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container-bottom p {
+  color: hsl(229, 6%, 66%);
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+.container-supervisor {
+  width: 1100px;
+  height: 260px;
+  background: white;
+  border: 1px 1px 1px 1px hsl(229, 6%, 66%);
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  -moz-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin: 10px;
+  padding: 30px;
+  margin-bottom: 250px;
+}
+.container-supervisor img {
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+.container-mid {
+  width: 1500px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 250px;
+}
+.container-builder {
+  width: 340px;
+  height: 260px;
+  background: white;
+  border: 1px 1px 1px 1px hsl(229, 6%, 66%);
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  -moz-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin: 10px;
+  padding: 30px;
+}
+.container-builder img {
+  position: relative;
+  top: 50px;
+  left: 210px;
+}
+.container-calculator {
+  width: 1100px;
+  height: 260px;
+  background: white;
+  border: 1px 1px 1px 1px hsl(229, 6%, 66%);
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  -moz-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  border-top: 4px solid hsl(212, 86%, 64%);
+  margin: 10px;
+  padding: 30px;
+  margin-bottom: 250px;
+}
+.container-calculator img {
+  position: relative;
+  top: 50px;
+  left: 200px;
+}
+.container-karma {
+  width: 340px;
+  height: 260px;
+  background: white;
+  border: 1px 1px 1px 1px hsl(229, 6%, 66%);
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  -moz-box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  box-shadow: 5px 5px 5px 0px hsl(229, 6%, 66%, 0.25);
+  border-top: 4px solid hsl(34, 97%, 64%);
+  margin: 10px;
+  margin-top: 20px;
+  padding: 30px;
+}
+.container-karma img {
+  position: relative;
+  top: 50px;
+  left: 210px;
+}
